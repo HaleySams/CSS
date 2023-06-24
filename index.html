@@ -1,57 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Haley Sams</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="icon" href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Haley Sams</title>
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+    rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      text-align: center;
+      font-family: 'Montserrat', serif;
+      color: #0587a4;
+      font-size: 1rem;
+    }
+
+    h1 {
+      margin-top: 0;
+      font-family: 'Sacramento', cursive;
+      font-size: 5.625rem;
+      margin: 50px auto 0 auto;
+      color: #6096B4;
+    }
+
+    h2 {
+      font-family: 'Montserrat', serif;
+      font-size: 2.5rem;
+      color: #82AAE3;
+      font-weight: normal;
+      padding-bottom: 10px;
+    }
+
+    h3 {
+      font-family: 'Montserrat', serif;
+      color: #82AAE3;
+      font-size: 2rem;
+    }
+
+    hr {
+      border-top: #BFEAF5 20px;
+      border-right: 0;
+      border-left: 0;
+      border-bottom: 0;
+      border-style: dotted;
+      width: 20%;
+    }
+
+    .profile {
+      margin-bottom: 50px;
+    }
+
+    .profilepic {
+      width: 15%
+    }
+
+    .top-container {
+      background-color: #BFEAF5;
+      position: relative;
+      padding-top: 100px;
+    }
+
+    .mid-container {
+      margin: 50px auto;
+
+    }
+
+    .bottom-container {
+      background-color: #EAFDFC;
+      height: 100px;
+    }
+
+    .pro {
+      text-decoration: underline;
+    }
+
+    .top-cloud {
+      position: absolute;
+      right: 300px;
+      top: 50px;
+    }
+
+    .bottom-cloud {
+      position: absolute;
+      left: 300px;
+      bottom: 300px;
+
+    }
+
+    .skill-row {
+      width: 50%;
+      margin: 50px auto 100px auto;
+      text-align: left;
+      line-height: 2;
+    }
+
+    .cus-serv-img {
+      width: 25%;
+      float: left;
+      margin-right: 30px;
+    }
+
+    .coding-img {
+      width: 25%;
+      float: right;
+      margin-left: 30px;
+    }
+
+    .linkedinicon,
+    .fbicon {
+      height: 25px;
+      width: 25px;
+    }
+
+    .contactme {
+      margin: auto;
+    }
+  </style>
 </head>
+
 <body>
-   <div class="top-container">
+  <div class="top-container">
     <img class="top-cloud" src="imgs/cloud.png" alt="top-cloud">
     <h1>I'm Haley</h1>
     <h3>a <span class="pro">pro</span>grammer.</h3>
     <img class="bottom-cloud" src="imgs/cloud.png" alt="bottom-cloud">
     <img src="imgs/mountain.png" alt="mountain">
-   </div>
+  </div>
 
-    <div class="mid-container">
-        <div class="profile">
-          <img class="profilepic" src="imgs/haley.png" alt="profile-img">
-          <h2>Hello.</h2>
-          <p>Welcome to my personal site!</p>
-        </div>
-        <hr>
-        <div class="skills">
-          <h2>My Skills</h2>
-          <div class="skill-row">
-            <img class="cus-serv-img" src="https://media0.giphy.com/media/95MUG23GsFbEsBBdvW/giphy.gif?cid=ecf05e47jm212p948l24dz955gc5ry9z24qwjil323j8h6mq&rid=giphy.gif&ct=s" alt="customer-service-img">
-            <h3>Communication</h3>
-            <p>Throughout my careers, I have consistently displayed a professional communication style while utilizing my knowledge of emotional intelligence to present topics, prepare sales documentation and scripts, and help people solve their problems by offering a product or service that fits their personal needs.</p>
-          </div>
-          <div class="skill-row">
-            <img class="coding-img" src="https://media4.giphy.com/media/WFZvB7VIXBgiz3oDXE/giphy.gif?cid=ecf05e47bkasqx70ezpf9i1ysiiz7kv3mjt3jdvwr9s5szz7&rid=giphy.gif&ct=s" alt="coding-img">
-            <h3>Programming</h3>
-            <p>I have received certifications in Java, HTML, CSS, and SQL so far. I am in the process of achieving a Full Stack Web Developer Certification from The App Brewery.</p>
-          </div>
-        </div>
-        <hr>
-        <div class="contact-me">
-          <h2>Get In Touch</h2>
-          <h3>I am always looking to connect with like-minded individuals!</h3>
-          <p>Please feel free to reach out to me via email, LinkedIn, or Facebook.</p>
-          <a class="btn" href="mailto:haleysams2022@gmail.com">CONTACT ME</a>
-        </div>
+  <div class="mid-container">
+    <div class="profile">
+      <img class="profilepic" src="imgs/haley.png" alt="profile-img">
+      <h2>Hello.</h2>
+      <p>Welcome to my personal site!</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills</h2>
+      <div class="skill-row">
+        <img class="cus-serv-img"
+          src="https://media0.giphy.com/media/95MUG23GsFbEsBBdvW/giphy.gif?cid=ecf05e47jm212p948l24dz955gc5ry9z24qwjil323j8h6mq&rid=giphy.gif&ct=s"
+          alt="customer-service-img">
+        <h3>Communication</h3>
+        <p>Communication is undoubtedly one of my greatest strengths. I possess a natural ability to articulate my
+          thoughts clearly and concisely, allowing me to express ideas effectively to others. Whether it's engaging in a
+          conversation, delivering a presentation, or writing a persuasive essay, I excel at conveying information in a
+          compelling and comprehensible manner. I am an attentive listener, which enables me to understand and empathize
+          with different perspectives, fostering open and meaningful dialogue. Moreover, I adapt my communication style
+          to suit diverse audiences and situations, ensuring that my message resonates with clarity and impact.
+          Harnessing the power of words, I am able to build strong connections, foster collaboration, and inspire others
+          to take action.</p>
       </div>
-      
-      <div class="bottom-container">
-        <a class="footer-link" href="https://www.linkedin.com/in/haley-sams-69097748">LinkedIn</a>
-        <a class="footer-link" href="https://www.facebook.com/haley-pullen">Facebook</a>
-        <p>© Haley Sams</p>
-      </div>      
-
+      <div class="skill-row">
+        <img class="coding-img"
+          src="https://media4.giphy.com/media/WFZvB7VIXBgiz3oDXE/giphy.gif?cid=ecf05e47bkasqx70ezpf9i1ysiiz7kv3mjt3jdvwr9s5szz7&rid=giphy.gif&ct=s"
+          alt="coding-img">
+        <h3>Programming</h3>
+        <p>I am actively dedicated to developing my software engineering skills and constantly pushing myself to new
+          heights. Recently, I achieved a significant milestone by obtaining a certification in Java, showcasing my
+          proficiency in this versatile programming language. This certification has not only enhanced my understanding
+          of Java's intricacies but has also solidified my foundation in object-oriented programming and software
+          development principles. Additionally, I am currently engaged in pursuing a full stack web developer
+          certification. Through this rigorous training, I am gaining expertise in front-end and back-end technologies,
+          learning to create dynamic and interactive web applications. By combining my knowledge of Java and web
+          development, I am equipping myself with a diverse skill set that will enable me to tackle complex software
+          engineering challenges and deliver innovative solutions.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>I am always looking to connect with like-minded individuals!</h3>
+      <h4>Please feel free to reach out to me via email, LinkedIn, or Facebook.</h4>
+      <a class="btn" href="mailto:haleysams2022@gmail.com">CONTACT ME</a>
+      <table class="contactme">
+        <tr>
+          <td>
+            <a class="footer-link" href="https://www.linkedin.com/in/haley-sams-69097748"><img
+                src="https://www.iconarchive.com/download/i82926/limav/flat-gradient-social/Linkedin.ico"
+                alt="linkedinicon" class="linkedinicon"><br>LinkedIn</a>
+          </td>
+          <td><a class="footer-link" href="https://www.facebook.com/haley-pullen"><img
+                src="https://cdn-icons-png.flaticon.com/256/1312/1312139.png" alt="fbicon"
+                class="fbicon"><br>Facebook</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="bottom-container">
+    <h3>© Haley Sams 2023</h3>
+  </div>
 </body>
 </html>
